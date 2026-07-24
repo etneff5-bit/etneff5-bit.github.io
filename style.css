@@ -1,0 +1,49 @@
+body{
+
+    margin:0;
+
+    font-family:Arial, sans-serif;
+
+}
+
+nav{
+
+    background:#00263A;
+
+    padding:15px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-right:25px;
+
+    font-weight:bold;
+
+}
+
+header{
+
+    background:#0F4C81;
+
+    color:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+main{
+
+    width:80%;
+
+    margin:auto;
+
+    padding:40px;
+
+}
