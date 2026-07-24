@@ -71,3 +71,39 @@ main{
     background:#154d7d;
 
 }
+
+.contact-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:50px;
+
+}
+
+.contact-info{
+
+    flex:2;
+
+}
+
+.profile-photo{
+
+    flex:1;
+
+    text-align:right;
+
+}
+
+.profile-photo img{
+
+    max-width:300px;
+
+    width:100%;
+
+    border-radius:12px;
+
+}
