@@ -28,13 +28,19 @@ nav a{
 
 header{
 
-    background:#0F4C81;
+    background-image:url("images/header.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
 
     color:white;
 
     text-align:center;
 
-    padding:80px 20px;
+    padding:100px 20px;
 
 }
 
