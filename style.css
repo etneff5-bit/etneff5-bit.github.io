@@ -26,22 +26,20 @@ nav a{
 
 }
 
-header{
+header {
 
-    background-image:url("images/19664.jpeg");
+    background-image:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url("images/19664.jpg");
 
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    background-position:center;
+    color: white;
+    text-align: center;
 
-    background-repeat:no-repeat;
-
-    color:white;
-
-    text-align:center;
-
-    padding:100px 20px;
-
+    padding: 100px 20px;
 }
 
 main{
