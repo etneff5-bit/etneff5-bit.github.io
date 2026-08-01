@@ -106,3 +106,31 @@ main {
     color: #777;
     letter-spacing: 0.5px;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+
+    .profile-photo {
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    header {
+        padding: 60px 15px;
+    }
+    
+    body {
+        font-size: 17px; 
+    }
+}
