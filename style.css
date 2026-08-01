@@ -130,3 +130,13 @@ main{
     max-height:250px;
     
 }
+
+.site-footer {
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.8rem;
+  color: #777;
+  letter-spacing: 0.5px;
+}
