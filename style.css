@@ -25,6 +25,12 @@ nav a {
     font-weight: bold;
 }
 
+nav a.active {
+
+    color: #ffd166;
+
+}
+
 header {
     background-image: url("images/19664.jpeg");
     background-size: cover;
