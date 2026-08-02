@@ -82,15 +82,25 @@ main {
 }
 
 .main-photo {
-    flex: 1;
-    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
 }
 
 .main-photo img {
-    max-width: 250px;
-    width: 100%;
+
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
     border-radius: 12px;
-    max-height: 250px;
+
 }
 
 .site-footer {
