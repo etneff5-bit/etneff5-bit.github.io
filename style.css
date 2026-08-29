@@ -370,3 +370,18 @@ main {
     max-width: 500px;
 
 }
+
+.project-video {
+
+    display: block;
+
+    width: 100%;
+    max-width: 500px;
+
+    height: auto;
+
+    margin: 35px auto;
+
+    border-radius: 10px;
+
+}
