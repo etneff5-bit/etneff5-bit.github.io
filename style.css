@@ -372,16 +372,13 @@ main {
 }
 
 .project-video {
-
     display: block;
 
-    width: 100%;
-    max-width: 500px;
-
-    height: auto;
+    width: auto;
+    max-width: 100%;
+    height: 500px;
 
     margin: 35px auto;
 
     border-radius: 10px;
-
 }
