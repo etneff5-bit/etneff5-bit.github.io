@@ -17,6 +17,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #00263A;
+    padding: 10px 20px;
 }
 
 .nav-links {
@@ -158,6 +160,8 @@ main {
 
     .nav-links {
         gap: 12px
+    }
+    
     .contact-container {
         flex-direction: column-reverse;
         gap: 30px;
