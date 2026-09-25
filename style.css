@@ -14,8 +14,27 @@ body {
 }
 
 nav {
-    background: #00263A;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-logo img {
+    height: 55px;
+    width: auto;
+    display: block;
 }
 
 nav a {
@@ -133,6 +152,12 @@ main {
 }
 
 @media (max-width: 768px) {
+    .nav-logo img {
+        height: 45px;
+    }
+
+    .nav-links {
+        gap: 12px
     .contact-container {
         flex-direction: column-reverse;
         gap: 30px;
