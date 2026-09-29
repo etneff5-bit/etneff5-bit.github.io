@@ -14,6 +14,7 @@ body {
 }
 
 nav {
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +38,10 @@ nav {
     height: 55px;
     width: auto;
     display: block;
+=======
+    background: #00263A;
+    padding: 15px;
+>>>>>>> parent of 7ce8731 (Enhance navigation layout with flexbox styling)
 }
 
 nav a {
@@ -154,6 +159,7 @@ main {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .nav-logo img {
         height: 45px;
     }
@@ -162,6 +168,8 @@ main {
         gap: 12px
     }
     
+=======
+>>>>>>> parent of 7ce8731 (Enhance navigation layout with flexbox styling)
     .contact-container {
         flex-direction: column-reverse;
         gap: 30px;
